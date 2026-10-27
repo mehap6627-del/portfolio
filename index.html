@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>websit-3</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body style="background-color: whitesmoke;">
+  <nav class="navbar sm:navbar-expand bg-1 fg-2" style="margin-bottom: 20px;  position: sticky;
+    top: 0;
+    z-index: 120000;
+    font-size: 22px;">
+  <div class="container-fluid" style="padding: 0 100px;">
+    <span class="avatar theme-inverse" style="margin-right: 5PX;">MO</span>
+    <a class="navbar-brand" style="font-size: 20px;" href="#home">home</a>
+    <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" aria-hidden="true"></span>
+    </button>
+    <dialog class="drawer drawer-end" tabindex="-1" id="navbarNavAltMarkup" aria-labelledby="navbarNavAltMarkupLabel">
+      <div class="drawer-header">
+        <h5 class="drawer-title" id="navbarNavAltMarkupLabel">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+      </div>
+      <div class="drawer-body">
+        <div class="nav nav-pills navbar-nav">
+          <a class="nav-link active" style="font-size: 22px;" aria-current="page" href="#about">about me</a>
+          <a class="nav-link" href="#skills">skills</a>
+          <a class="nav-link" href="#contact">contact</a>
+        </div>
+      </div>
+    </dialog>
+  </div>
+</nav>
+ <section class="Home" id="home" style="margin: 20px 30px;">
+  <span class="avatar" style= "--bs-avatar-size: 20rem;">
+  <img class="avatar-img" src="emg1.jpeg" alt="mdo">
+</span>
+<h1 style="color: black; margin: 20px 0;">
+  
+  Hello, my name is Mostafa Ehab. <br>
+I'm a Professional Full-Stack Developer,<span style="color:rgb(84, 84, 223);">Front-End and Back-End,</span> <br>  passionate by coding
+</h1>
+<button type="button" class="btn-solid theme-primary" style="font-size: 20px;">my works</button>
+<button type="button" class="btn-outline theme-primary"style="font-size: 20px;margin: 20px 0;">contact my</button>
+ </section>
+<section class="about" id="about" style="margin-top: 30px;">
+  <div class="card card-row" style="width: 600px;height: 300px; margin-left: 30px; ">
+  <img src="emg1.jpeg" class="card-img-start" alt="Mostafa">
+  <div class="card-body" style="color:white;">
+    <h2 class="card-title" style="font-size: 40px; color: rgb(85, 85, 225);">about me</h2>
+    <p class="card-text" style="color: grey;font-size: 19px;">I am a passionate Front-End Developer dedicated to writing clean, semantic code and building responsive, user-friendly web experiences. I love transforming creative ideas and designs into functional, high-performing websites."</p>
+  </div>
+</div>
+</section>
+<section class="skills" id="skills">
+  <div class="skil" style="display: flex;flex-direction: column; align-items: center;">
+  <h1 style="color: black;">Professional <span style="color: rgb(90, 90, 224);"> Skills </span></h1>
+  <p style="color: grey;">Now residence dashwoods the excellent you. Strive raising want as child time. As much read on show, blessing for ignorant excellence so you virtuous.</p>
+  </div>
+<div class="slil-o" style="display: flex; justify-content: center;gap: 10px;">
+  <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h2 class="card-title" style="color: rgb(120, 120, 231);">Frontend Developer</h2>
+    <p class="card-text" style="color: grey;">Whether article spirits new her covered hastily sitting her Money witty. Building responsive and interactive user interfaces with modern frameworks.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">-> React.js</li>
+    <li class="list-group-item">-> Next.js</li>
+    <li class="list-group-item">-> Tailwind CSS</li>
+  </ul>
+ 
+</div>
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h2 class="card-title" style="color: rgb(120, 120, 231);"> Backend Developer</h2>
+    <p class="card-text" style="color: grey;">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">-> Node.js</li>
+    <li class="list-group-item">-> Python Django</li>
+    <li class="list-group-item">-> MySQL</li>
+  </ul>
+ 
+</div>
+</div>
+</section>
+<section class="contact" id="contact" style="margin-top: 77px; display: flex;flex-direction: column;align-items: center;">
+  <div class="conct" style="display: flex;justify-content: center;margin-bottom: 30px;">
+<h1 style="color: black;"><span style="color: rgb(96, 96, 226);"> Get in touch with us;</span><br> we can bring your idea to life.</h1>
+  </div>
+  <div class="formss" style="width: 600px;height: 400px; margin: 15px 0;">
+<div class="row" style="">
+  <div class="col">
+    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+  </div>
+   <div class="row-o" style="margin-top: 15px;">
+  <div class="col-o">
+    <input type="text" class="form-control" placeholder="your phone" aria-label="your phone">
+  </div>
+  <div class="form-field">
+  <label for="fieldTextarea" class="form-label"></label>
+  <textarea class="form-control" id="fieldTextarea" rows="7" style="color: grey;">send your massage</textarea>
+  <div class="form-text" style="color: grey;">
+    Be sure to include relevant details.
+  </div>
+  <button type="button" class="btn-solid theme-accent">send</button>
+</div>
+
+   </div>
+   
+</section>
+<footer class="bg-dark text-white pt-5 pb-4" style="background-color:black;">
+  <div class="container text-center text-md-start">
+    <div class="row text-center text-md-start">
+      
+      <!-- العمود الأول: نبذة عن الموقع -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">mostafa ehap </h5>
+        <p>
+          نحن نقدم أفضل الحلول الرقمية وتطوير واجهات المستخدم لمساعدة مشروعك على النمو والنجاح عبر الإنترنت باحترافية عالية.
+        </p>
+      </div>
+
+      <!-- العمود الثاني: روابط سريعة -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">روابط سريعة</h5>
+        <p>
+          <a href="#" class="text-white text-decoration-none">الرئيسية</a>
+        </p>
+        <p>
+          <a href="#" class="text-white text-decoration-none">من نحن</a>
+        </p>
+        <p>
+          <a href="#" class="text-white text-decoration-none">خدماتنا</a>
+        </p>
+        <p>
+          <a href="#" class="text-white text-decoration-none">تواصل معنا</a>
+        </p>
+      </div>
+
+      <!-- العمود الثالث: التواصل -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">تواصل معنا</h5>
+        <p><i class="bi bi-house-door-fill me-2"></i> القاهرة، مصر</p>
+        <p><i class="bi bi-envelope-fill me-2"></i> info@example.com</p>
+        <p><i class="bi bi-telephone-fill me-2"></i> 01123819603</p>
+      </div>
+
+      <!-- العمود الرابع: وسائل التواصل الاجتماعي -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">تابعنا</h5>
+        <div class="d-flex justify-content-center justify-content-md-start gap-3 fs-4">
+          <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="mb-4">
+
+    <!-- حقوق النشر -->
+    <div class="row align-items-center">
+      <div class="col-md-7 col-lg-8 text-center text-md-start">
+        <p>© 2026 جميع الحقوق محفوظة لـ:
+          <a href="#" class="text-warning text-decoration-none"><strong>Mostafa ehap </strong></a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+</body>
+</html>
